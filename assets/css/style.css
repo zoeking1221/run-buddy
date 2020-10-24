@@ -241,6 +241,21 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+
+/* SERVICES STYLES START */
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
+
 /* REACH OUT STYLES START */
 .contact {
     background: #024e76;
@@ -348,8 +363,7 @@ section {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     section {
-        pad
-        ding: 30px 15px;
+        padding: 30px 15px;
     }
 
     .step h3 {
